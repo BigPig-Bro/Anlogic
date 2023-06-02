@@ -1,0 +1,34 @@
+standard
+***Report Model: top Device: EF2L45LG144B***
+
+IO Statistics
+#IO                         6
+  #input                    2
+  #output                   4
+  #inout                    0
+
+Gate Statistics
+#Basic gates               30
+  #and                      0
+  #nand                     0
+  #or                       0
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                      0
+  #bufif1                   0
+  #MX21                     0
+  #FADD                     0
+  #DFF                     30
+  #LATCH                    0
+#MACRO_ADD                  2
+#MACRO_EQ                   1
+#MACRO_MUX                 26
+
+Report Hierarchy Area:
++-----------------------------------------+
+|Instance |Module |gates  |seq    |macros |
++-----------------------------------------+
+|top      |top    |0      |30     |3      |
++-----------------------------------------+
