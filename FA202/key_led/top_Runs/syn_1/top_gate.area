@@ -1,0 +1,42 @@
+standard
+***Report Model: top Device: EF2L45LG144B***
+
+IO Statistics
+#IO                         9
+  #input                    5
+  #output                   4
+  #inout                    0
+
+LUT Statistics
+#Total_luts               107
+  #lut4                    28
+  #lut5                     0
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b              79
+
+Utilization Statistics
+#lut                      107   out of   4480    2.39%
+#reg                       82   out of   4480    1.83%
+#le                         0
+#dsp                        0   out of     15    0.00%
+#bram                       0   out of     12    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of      6    0.00%
+#pad                        9   out of    109    8.26%
+  #ireg                     0
+  #oreg                     4
+  #treg                     0
+#pll                        0   out of      1    0.00%
+
+Report Hierarchy Area:
++--------------------------------------------------------------+
+|Instance |Module |lut     |ripple  |seq     |bram    |dsp     |
++--------------------------------------------------------------+
+|top      |top    |28      |79      |86      |0       |0       |
+|  key_m0 |key    |7       |28      |28      |0       |0       |
+|  key_m1 |key    |7       |17      |18      |0       |0       |
+|  key_m2 |key    |7       |17      |18      |0       |0       |
+|  key_m3 |key    |7       |17      |18      |0       |0       |
++--------------------------------------------------------------+

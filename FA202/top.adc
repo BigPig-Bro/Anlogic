@@ -1,0 +1,23 @@
+set_pin_assignment	{ clk }	{ LOCATION = P57; }
+
+set_pin_assignment	{ key[0] }	{ LOCATION = P52; }
+set_pin_assignment	{ key[1] }	{ LOCATION = P54; }
+set_pin_assignment	{ key[2] }	{ LOCATION = P61; }
+set_pin_assignment	{ key[3] }	{ LOCATION = P62; }
+
+set_pin_assignment	{ led[0] }	{ LOCATION = P138; }
+set_pin_assignment	{ led[1] }	{ LOCATION = P139; }
+set_pin_assignment	{ led[2] }	{ LOCATION = P140; }
+set_pin_assignment	{ led[3] }	{ LOCATION = P141; }
+
+set_pin_assignment	{ flash_clk 	}	{ LOCATION = P47; }
+set_pin_assignment	{ flash_cs_n 	}	{ LOCATION = P45; }
+set_pin_assignment	{ flash_data	}	{ LOCATION = P48; }
+set_pin_assignment	{ flash_asdo	}	{ LOCATION = P44; }
+
+set_pin_assignment	{ eeprom_scl }	{ LOCATION = P67; }
+set_pin_assignment	{ eeprom_sda }	{ LOCATION = P65; }
+
+set_pin_assignment	{ uart_tx }	{ LOCATION = P113; }
+set_pin_assignment	{ uart_rx }	{ LOCATION = P114; }
+

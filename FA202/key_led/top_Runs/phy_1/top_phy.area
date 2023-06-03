@@ -1,0 +1,71 @@
+standard
+***Report Model: top Device: EF2L45LG144B***
+
+IO Statistics
+#IO                         9
+  #input                    5
+  #output                   4
+  #inout                    0
+
+Utilization Statistics
+#lut                       88   out of   4480    1.96%
+#reg                       82   out of   4480    1.83%
+#le                       113
+  #lut only                31   out of    113   27.43%
+  #reg only                25   out of    113   22.12%
+  #lut&reg                 57   out of    113   50.44%
+#dsp                        0   out of     15    0.00%
+#bram                       0   out of     12    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of      6    0.00%
+#pad                        9   out of    109    8.26%
+  #ireg                     0
+  #oreg                     4
+  #treg                     0
+#pll                        0   out of      1    0.00%
+#gclk                       5   out of     16   31.25%
+
+Clock Resource Statistics
+Index     ClockNet               Type               DriverType         Driver                         Fanout
+#1        key_m0/clk_delay[9]    GCLK               mslice             key_m0/reg0_syn_67.q0          42
+#2        clk_dup_1              GCLK               io                 clk_syn_2.di                   6
+#3        key_m0/key_clk         GCLK               lslice             key_m0/key_clk_reg_syn_5.q1    3
+#4        key_m1/key_clk         GCLK               lslice             key_m1/key_clk_reg_syn_5.q1    3
+#5        key_m2/key_clk         GCLK               lslice             key_m2/key_clk_reg_syn_5.q1    3
+#6        key_m3/key_clk         GCLK               lslice             key_m3/key_clk_reg_syn_5.q0    3
+
+
+Detailed IO Report
+
+   Name     Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+   clk        INPUT        P57        LVCMOS25          N/A          PULLUP      NONE    
+  key[3]      INPUT        P62        LVCMOS25          N/A          PULLUP      NONE    
+  key[2]      INPUT        P61        LVCMOS25          N/A          PULLUP      NONE    
+  key[1]      INPUT        P54        LVCMOS25          N/A          PULLUP      NONE    
+  key[0]      INPUT        P52        LVCMOS25          N/A          PULLUP      NONE    
+  led[3]     OUTPUT        P141       LVCMOS25           8            NONE       OREG    
+  led[2]     OUTPUT        P140       LVCMOS25           8            NONE       OREG    
+  led[1]     OUTPUT        P139       LVCMOS25           8            NONE       OREG    
+  led[0]     OUTPUT        P138       LVCMOS25           8            NONE       OREG    
+
+Report Hierarchy Area:
++----------------------------------------------------------------------+
+|Instance |Module |le     |lut     |ripple  |seq     |bram    |dsp     |
++----------------------------------------------------------------------+
+|top      |top    |113    |58      |30      |86      |0       |0       |
+|  key_m0 |key    |38     |18      |11      |28      |0       |0       |
+|  key_m1 |key    |26     |12      |5       |18      |0       |0       |
+|  key_m2 |key    |24     |12      |5       |16      |0       |0       |
+|  key_m3 |key    |25     |16      |9       |20      |0       |0       |
++----------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1       115   
+    #2         2        65   
+    #3        5-10      3    
+    #4       11-50      1    
+  Average     1.55           
