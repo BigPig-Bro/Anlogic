@@ -1,0 +1,63 @@
+standard
+***Report Model: top Device: EF2L45LG144B***
+
+IO Statistics
+#IO                         5
+  #input                    2
+  #output                   2
+  #inout                    1
+
+Utilization Statistics
+#lut                      313   out of   4480    6.99%
+#reg                      151   out of   4480    3.37%
+#le                       360
+  #lut only               209   out of    360   58.06%
+  #reg only                47   out of    360   13.06%
+  #lut&reg                104   out of    360   28.89%
+#dsp                        0   out of     15    0.00%
+#bram                       0   out of     12    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of      6    0.00%
+#pad                        5   out of    109    4.59%
+  #ireg                     1
+  #oreg                     2
+  #treg                     0
+#pll                        0   out of      1    0.00%
+#gclk                       1   out of     16    6.25%
+
+Clock Resource Statistics
+Index     ClockNet                Type               DriverType         Driver                               Fanout
+#1        clk_dup_1               GCLK               io                 clk_syn_2.di                         73
+#2        iic_master_m0/scl_x2    GCLK               mslice             iic_master_m0/scl_x2_reg_syn_5.q1    32
+
+
+Detailed IO Report
+
+    Name       Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+     clk         INPUT        P57        LVCMOS25          N/A          PULLUP      NONE    
+    rst_n        INPUT         P1        LVCMOS25          N/A          PULLUP      NONE    
+  data_beat     OUTPUT        P138       LVCMOS25           8            NONE       OREG    
+   iic_scl      OUTPUT        P67        LVCMOS25           8            NONE       OREG    
+   iic_sda       INOUT        P65        LVCMOS25           8           PULLUP      IREG    
+
+Report Hierarchy Area:
++-----------------------------------------------------------------------------------+
+|Instance         |Module      |le     |lut     |ripple  |seq     |bram    |dsp     |
++-----------------------------------------------------------------------------------+
+|top              |top         |360    |273     |40      |154     |0       |0       |
+|  eeprom_test_m0 |eeprom_test |181    |145     |32      |47      |0       |0       |
+|  iic_master_m0  |iic_master  |179    |128     |8       |104     |0       |0       |
++-----------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1       220   
+    #2         2        60   
+    #3         3        27   
+    #4         4        16   
+    #5        5-10      39   
+    #6       11-50      19   
+  Average     2.94           

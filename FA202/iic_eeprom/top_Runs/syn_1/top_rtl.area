@@ -1,0 +1,36 @@
+standard
+***Report Model: top Device: EF2L45LG144B***
+
+IO Statistics
+#IO                         5
+  #input                    2
+  #output                   2
+  #inout                    1
+
+Gate Statistics
+#Basic gates              294
+  #and                     38
+  #nand                     0
+  #or                       1
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                     23
+  #bufif1                   1
+  #MX21                    79
+  #FADD                     0
+  #DFF                    152
+  #LATCH                    0
+#MACRO_ADD                 11
+#MACRO_EQ                  13
+#MACRO_MUX                235
+
+Report Hierarchy Area:
++------------------------------------------------------+
+|Instance         |Module      |gates  |seq    |macros |
++------------------------------------------------------+
+|top              |top         |142    |152    |24     |
+|  eeprom_test_m0 |eeprom_test |52     |49     |12     |
+|  iic_master_m0  |iic_master  |90     |103    |12     |
++------------------------------------------------------+

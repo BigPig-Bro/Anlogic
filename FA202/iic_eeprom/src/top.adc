@@ -1,0 +1,7 @@
+set_pin_assignment	{ clk }	{ LOCATION = P57; }
+
+set_pin_assignment	{ data_beat }	{ LOCATION = P138; }
+
+set_pin_assignment	{ iic_scl }	{ LOCATION = P67; }
+set_pin_assignment	{ iic_sda }	{ LOCATION = P65; }
+
