@@ -1,0 +1,40 @@
+standard
+***Report Model: top Device: EG4S20NG88***
+
+IO Statistics
+#IO                        29
+  #input                    1
+  #output                  28
+  #inout                    0
+
+LUT Statistics
+#Total_luts               327
+  #lut4                    66
+  #lut5                    12
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b             249
+
+Utilization Statistics
+#lut                      327   out of  19600    1.67%
+#reg                       36   out of  19600    0.18%
+#le                         0
+#dsp                        0   out of     29    0.00%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       29   out of     66   43.94%
+  #ireg                     0
+  #oreg                     2
+  #treg                     0
+#pll                        1   out of      4   25.00%
+
+Report Hierarchy Area:
++-------------------------------------------------------------------------+
+|Instance        |Module     |lut     |ripple  |seq     |bram    |dsp     |
++-------------------------------------------------------------------------+
+|top             |top        |78      |249     |38      |0       |0       |
+|  rgb_timing_m0 |rgb_timing |38      |51      |36      |0       |0       |
+|  video_pll_m0  |video_pll  |0       |0       |0       |0       |0       |
++-------------------------------------------------------------------------+

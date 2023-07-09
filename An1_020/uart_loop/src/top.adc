@@ -1,0 +1,6 @@
+set_pin_assignment	{ clk }	{ LOCATION = P35; }
+set_pin_assignment	{ uart_tx }	{ LOCATION = P10; }
+set_pin_assignment	{ uart_rx }	{ LOCATION = P34; }
+
+
+

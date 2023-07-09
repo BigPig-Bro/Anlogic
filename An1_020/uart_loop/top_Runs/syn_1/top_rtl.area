@@ -1,0 +1,36 @@
+standard
+***Report Model: uart_top Device: EG4S20NG88***
+
+IO Statistics
+#IO                         3
+  #input                    2
+  #output                   1
+  #inout                    0
+
+Gate Statistics
+#Basic gates              162
+  #and                     21
+  #nand                     0
+  #or                       8
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                      7
+  #bufif1                   0
+  #MX21                    23
+  #FADD                     0
+  #DFF                    103
+  #LATCH                    0
+#MACRO_ADD                  8
+#MACRO_EQ                  10
+#MACRO_MUX                 93
+
+Report Hierarchy Area:
++-----------------------------------------------+
+|Instance     |Module   |gates  |seq    |macros |
++-----------------------------------------------+
+|top          |uart_top |59     |103    |18     |
+|  uart_rx_m0 |uart_rx  |21     |32     |6      |
+|  uart_tx_m0 |uart_tx  |4      |25     |5      |
++-----------------------------------------------+

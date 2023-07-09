@@ -1,0 +1,60 @@
+standard
+***Report Model: uart_top Device: EG4S20NG88***
+
+IO Statistics
+#IO                         3
+  #input                    2
+  #output                   1
+  #inout                    0
+
+Utilization Statistics
+#lut                      190   out of  19600    0.97%
+#reg                      102   out of  19600    0.52%
+#le                       194
+  #lut only                92   out of    194   47.42%
+  #reg only                 4   out of    194    2.06%
+  #lut&reg                 98   out of    194   50.52%
+#dsp                        0   out of     29    0.00%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                        3   out of     66    4.55%
+  #ireg                     1
+  #oreg                     1
+  #treg                     0
+#pll                        0   out of      4    0.00%
+#gclk                       0   out of     16    0.00%
+
+Clock Resource Statistics
+Index     ClockNet     Type               DriverType         Driver          Fanout
+#1        clk_dup_1    GCLK               io                 clk_syn_2.di    71
+
+
+Detailed IO Report
+
+   Name      Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+    clk        INPUT        P35        LVCMOS25          N/A          PULLUP      NONE    
+  uart_rx      INPUT        P34        LVCMOS25          N/A          PULLUP      IREG    
+  uart_tx     OUTPUT        P10        LVCMOS25           8            NONE       OREG    
+
+Report Hierarchy Area:
++----------------------------------------------------------------------------+
+|Instance     |Module   |le     |lut     |ripple  |seq     |bram    |dsp     |
++----------------------------------------------------------------------------+
+|top          |uart_top |194    |165     |25      |104     |0       |0       |
+|  uart_rx_m0 |uart_rx  |74     |64      |10      |31      |0       |0       |
+|  uart_tx_m0 |uart_tx  |41     |35      |6       |23      |0       |0       |
++----------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1       118   
+    #2         2        72   
+    #3         3        10   
+    #4         4        3    
+    #5        5-10      27   
+    #6       11-50      12   
+  Average     2.70           

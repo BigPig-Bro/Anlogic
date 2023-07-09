@@ -1,0 +1,40 @@
+standard
+***Report Model: uart_top Device: EG4S20NG88***
+
+IO Statistics
+#IO                         3
+  #input                    2
+  #output                   1
+  #inout                    0
+
+LUT Statistics
+#Total_luts               198
+  #lut4                   101
+  #lut5                    27
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b              70
+
+Utilization Statistics
+#lut                      198   out of  19600    1.01%
+#reg                      102   out of  19600    0.52%
+#le                         0
+#dsp                        0   out of     29    0.00%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                        3   out of     66    4.55%
+  #ireg                     1
+  #oreg                     1
+  #treg                     0
+#pll                        0   out of      4    0.00%
+
+Report Hierarchy Area:
++--------------------------------------------------------------------+
+|Instance     |Module   |lut     |ripple  |seq     |bram    |dsp     |
++--------------------------------------------------------------------+
+|top          |uart_top |128     |70      |104     |0       |0       |
+|  uart_rx_m0 |uart_rx  |48      |25      |31      |0       |0       |
+|  uart_tx_m0 |uart_tx  |25      |12      |25      |0       |0       |
++--------------------------------------------------------------------+

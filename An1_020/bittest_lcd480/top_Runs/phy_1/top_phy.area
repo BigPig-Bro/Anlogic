@@ -1,0 +1,87 @@
+standard
+***Report Model: top Device: EG4S20NG88***
+
+IO Statistics
+#IO                        29
+  #input                    1
+  #output                  28
+  #inout                    0
+
+Utilization Statistics
+#lut                      318   out of  19600    1.62%
+#reg                       36   out of  19600    0.18%
+#le                       324
+  #lut only               288   out of    324   88.89%
+  #reg only                 6   out of    324    1.85%
+  #lut&reg                 30   out of    324    9.26%
+#dsp                        0   out of     29    0.00%
+#bram                       0   out of     64    0.00%
+  #bram9k                   0
+  #fifo9k                   0
+#bram32k                    0   out of     16    0.00%
+#pad                       29   out of     66   43.94%
+  #ireg                     0
+  #oreg                     2
+  #treg                     0
+#pll                        1   out of      4   25.00%
+#gclk                       0   out of     16    0.00%
+
+Clock Resource Statistics
+Index     ClockNet                 Type               DriverType         Driver                         Fanout
+#1        rgb_timing_m0/rgb_clk    GCLK               pll                video_pll_m0/pll_inst.clkc0    25
+#2        clk_dup_1                GeneralRouting     io                 clk_syn_2.di                   1
+
+
+Detailed IO Report
+
+     Name        Direction    Location    IOStandard    DriveStrength    PullType    PackReg  
+      clk          INPUT        P35        LVCMOS25          N/A          PULLUP      NONE    
+    lcd_clk       OUTPUT        P60        LVCMOS25           8            NONE       NONE    
+    lcd_de        OUTPUT        P63        LVCMOS25           8            NONE       NONE    
+    lcd_hs        OUTPUT        P61        LVCMOS25           8            NONE       OREG    
+  lcd_rgb[23]     OUTPUT        P38        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[22]     OUTPUT        P37        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[21]     OUTPUT        P33        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[20]     OUTPUT        P32        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[19]     OUTPUT        P31        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[18]     OUTPUT        P30        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[17]     OUTPUT        P29        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[16]     OUTPUT        P28        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[15]     OUTPUT        P48        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[14]     OUTPUT        P47        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[13]     OUTPUT        P45        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[12]     OUTPUT        P44        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[11]     OUTPUT        P42        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[10]     OUTPUT        P41        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[9]      OUTPUT        P40        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[8]      OUTPUT        P39        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[7]      OUTPUT        P59        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[6]      OUTPUT        P57        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[5]      OUTPUT        P55        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[4]      OUTPUT        P54        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[3]      OUTPUT        P52        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[2]      OUTPUT        P51        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[1]      OUTPUT        P50        LVCMOS25           8            NONE       NONE    
+  lcd_rgb[0]      OUTPUT        P49        LVCMOS25           8            NONE       NONE    
+    lcd_vs        OUTPUT        P62        LVCMOS25           8            NONE       OREG    
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------+
+|Instance        |Module     |le     |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------------+
+|top             |top        |324    |198     |120     |38      |0       |0       |
+|  rgb_timing_m0 |rgb_timing |81     |57      |18      |36      |0       |0       |
+|  video_pll_m0  |video_pll  |0      |0       |0       |0       |0       |0       |
++---------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout    Nets  
+    #1         1       164   
+    #2         2        24   
+    #3         3        17   
+    #4         4        20   
+    #5        5-10      14   
+    #6       11-50      9    
+  Average     2.46           
