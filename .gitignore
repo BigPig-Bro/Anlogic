@@ -1,3 +1,5 @@
-#屏蔽 .bak文件
-.bak
+#屏蔽 .log文件
 .log
+
+#屏蔽 .BAK 文件
+.bak
