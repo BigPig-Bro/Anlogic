@@ -1,0 +1,49 @@
+set_pin_assignment	{ clk 			}	{ LOCATION = P35; }
+
+set_pin_assignment	{ lcd_clk 		}	{ LOCATION = P60; }
+set_pin_assignment	{ lcd_hs 		}	{ LOCATION = P61; }
+set_pin_assignment	{ lcd_vs 		}	{ LOCATION = P62; }
+set_pin_assignment	{ lcd_de 		}	{ LOCATION = P63; }
+
+set_pin_assignment	{ lcd_rgb[0] 	}	{ LOCATION = P49; }
+set_pin_assignment	{ lcd_rgb[1] 	}	{ LOCATION = P50; }
+set_pin_assignment	{ lcd_rgb[2] 	}	{ LOCATION = P51; }
+set_pin_assignment	{ lcd_rgb[3] 	}	{ LOCATION = P52; }
+set_pin_assignment	{ lcd_rgb[4] 	}	{ LOCATION = P54; }
+set_pin_assignment	{ lcd_rgb[5] 	}	{ LOCATION = P55; }
+set_pin_assignment	{ lcd_rgb[6] 	}	{ LOCATION = P57; }
+set_pin_assignment	{ lcd_rgb[7] 	}	{ LOCATION = P59; }
+
+set_pin_assignment	{ lcd_rgb[8] 	}	{ LOCATION = P39; }
+set_pin_assignment	{ lcd_rgb[9] 	}	{ LOCATION = P40; }
+set_pin_assignment	{ lcd_rgb[10] 	}	{ LOCATION = P41; }
+set_pin_assignment	{ lcd_rgb[11] 	}	{ LOCATION = P42; }
+set_pin_assignment	{ lcd_rgb[12] 	}	{ LOCATION = P44; }
+set_pin_assignment	{ lcd_rgb[13] 	}	{ LOCATION = P45; }
+set_pin_assignment	{ lcd_rgb[14] 	}	{ LOCATION = P47; }
+set_pin_assignment	{ lcd_rgb[15] 	}	{ LOCATION = P48; }
+
+set_pin_assignment	{ lcd_rgb[16] 	}	{ LOCATION = P28; }
+set_pin_assignment	{ lcd_rgb[17] 	}	{ LOCATION = P29; }
+set_pin_assignment	{ lcd_rgb[18] 	}	{ LOCATION = P30; }
+set_pin_assignment	{ lcd_rgb[19] 	}	{ LOCATION = P31; }
+set_pin_assignment	{ lcd_rgb[20] 	}	{ LOCATION = P32; }
+set_pin_assignment	{ lcd_rgb[21] 	}	{ LOCATION = P33; }
+set_pin_assignment	{ lcd_rgb[22] 	}	{ LOCATION = P37; }
+set_pin_assignment	{ lcd_rgb[23] 	}	{ LOCATION = P38; }
+
+
+set_pin_assignment	{ cmos_scl 		}	{ LOCATION = P86; }
+set_pin_assignment	{ cmos_sda 		}	{ LOCATION = P79; }
+set_pin_assignment	{ cmos_vsync 	}	{ LOCATION = P87; }
+set_pin_assignment	{ cmos_href 	}	{ LOCATION = P83; }
+set_pin_assignment	{ cmos_pclk 	}	{ LOCATION = P68; }
+set_pin_assignment	{ cmos_db[0] 	}	{ LOCATION = P77; }
+set_pin_assignment	{ cmos_db[1] 	}	{ LOCATION = P76; }
+set_pin_assignment	{ cmos_db[2] 	}	{ LOCATION = P75; }
+set_pin_assignment	{ cmos_db[3] 	}	{ LOCATION = P74; }
+set_pin_assignment	{ cmos_db[4] 	}	{ LOCATION = P72; }
+set_pin_assignment	{ cmos_db[5] 	}	{ LOCATION = P71; }
+set_pin_assignment	{ cmos_db[6] 	}	{ LOCATION = P70; }
+set_pin_assignment	{ cmos_db[7] 	}	{ LOCATION = P67; }
+

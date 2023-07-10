@@ -1,0 +1,42 @@
+standard
+***Report Model: top Device: EG4S20NG88***
+
+IO Statistics
+#IO                        44
+  #input                   13
+  #output                  30
+  #inout                    1
+
+Gate Statistics
+#Basic gates              318
+  #and                     22
+  #nand                     0
+  #or                       1
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                     15
+  #bufif1                   1
+  #MX21                    47
+  #FADD                     0
+  #DFF                    232
+  #LATCH                    0
+#MACRO_ADD                 12
+#MACRO_EQ                  18
+#MACRO_MUX                 93
+#MACRO_OTHERS               1
+
+Report Hierarchy Area:
++------------------------------------------------------------------+
+|Instance               |Module            |gates  |seq    |macros |
++------------------------------------------------------------------+
+|top                    |top               |86     |232    |31     |
+|  cmos_8_16bit_m0      |cmos_8_16bit      |3      |26     |0      |
+|  iic_ctrl_m0          |iic_ctrl          |65     |172    |17     |
+|    iic_master_m0      |iic_master        |44     |101    |11     |
+|  video_pll_m0         |video_pll         |0      |0      |0      |
+|  video_timing_data_m0 |video_timing_data |17     |34     |14     |
+|    rgb_timing_m0      |rgb_timing        |15     |28     |10     |
+|    video_fifo_m0      |video_fifo        |0      |0      |1      |
++------------------------------------------------------------------+

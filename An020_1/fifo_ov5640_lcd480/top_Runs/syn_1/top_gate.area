@@ -1,0 +1,45 @@
+standard
+***Report Model: top Device: EG4S20NG88***
+
+IO Statistics
+#IO                        44
+  #input                   13
+  #output                  30
+  #inout                    1
+
+LUT Statistics
+#Total_luts               386
+  #lut4                   187
+  #lut5                    61
+  #lut6                    44
+  #lut5_mx41                0
+  #lut4_alu1b              94
+
+Utilization Statistics
+#lut                      430   out of  19600    2.19%
+#reg                      218   out of  19600    1.11%
+#le                         0
+#dsp                        0   out of     29    0.00%
+#bram                       8   out of     64   12.50%
+  #bram9k                   0
+  #fifo9k                   8
+#bram32k                    0   out of     16    0.00%
+#pad                       44   out of     67   65.67%
+  #ireg                     9
+  #oreg                     5
+  #treg                     1
+#pll                        1   out of      4   25.00%
+
+Report Hierarchy Area:
++---------------------------------------------------------------------------------------+
+|Instance               |Module            |lut     |ripple  |seq     |bram    |dsp     |
++---------------------------------------------------------------------------------------+
+|top                    |top               |336     |94      |233     |8       |0       |
+|  cmos_8_16bit_m0      |cmos_8_16bit      |2       |0       |18      |0       |0       |
+|  iic_ctrl_m0          |iic_ctrl          |296     |68      |170     |0       |0       |
+|    iic_master_m0      |iic_master        |69      |23      |99      |0       |0       |
+|  video_pll_m0         |video_pll         |0       |0       |0       |0       |0       |
+|  video_timing_data_m0 |video_timing_data |37      |26      |30      |8       |0       |
+|    rgb_timing_m0      |rgb_timing        |33      |26      |28      |0       |0       |
+|    video_fifo_m0      |video_fifo        |2       |0       |0       |8       |0       |
++---------------------------------------------------------------------------------------+

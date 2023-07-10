@@ -1,0 +1,44 @@
+<chipwatcher project_name="top" bit_file="top_Runs/phy_1/top.bit" bid_file="top_Runs/phy_1/top_inst.bid" chip_name="EG4S20NG88">
+<!-- HMAC is: 54ba158de0343a6ca6cd0f34d5d7e946c3b708b7325b492a16cf86b62073aa69 -->
+	<instance name="auto_chipwatcher_0" id="0" enabled="yes">
+		<clock clk_name="cmos_pclk" polarity="posedge"/>
+		<config bram_name="auto_chipwatcher_0_logicbram" sample_depth="2048"/>
+		<signal_vec>
+			<data_nets>
+				<net name="cmos_db[0]"/>
+				<net name="cmos_db[1]"/>
+				<net name="cmos_db[2]"/>
+				<net name="cmos_db[3]"/>
+				<net name="cmos_db[4]"/>
+				<net name="cmos_db[5]"/>
+				<net name="cmos_db[6]"/>
+				<net name="cmos_db[7]"/>
+				<net name="cmos_vsync"/>
+				<net name="lcd_de"/>
+				<net name="rst_n"/>
+			</data_nets>
+			<watcher_nodes>
+				<bus name="cmos_db" radix="bin" state="collapse" op="dont_care" type="input">
+					<net name="cmos_db[7]" type="input" trigger="enable"/>
+					<net name="cmos_db[6]" type="input" trigger="enable"/>
+					<net name="cmos_db[5]" type="input" trigger="enable"/>
+					<net name="cmos_db[4]" type="input" trigger="enable"/>
+					<net name="cmos_db[3]" type="input" trigger="enable"/>
+					<net name="cmos_db[2]" type="input" trigger="enable"/>
+					<net name="cmos_db[1]" type="input" trigger="enable"/>
+					<net name="cmos_db[0]" type="input" trigger="enable"/>
+				</bus>
+				<net name="cmos_vsync" op="equal" type="input" trigger="enable"/>
+				<net name="lcd_de" op="equal" type="output" trigger="enable"/>
+				<net name="rst_n" op="equal" type="input" trigger="enable"/>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_chipwatcher_0_trigger" position="pre">
+			<condition level="1" enabled="yes" type="basic_and">
+				cmos_db[0] == low && cmos_db[1] == low && cmos_db[2] == low && cmos_db[3] == low && cmos_db[4] == low && cmos_db[5] == low && cmos_db[6] == low && cmos_db[7] == low && cmos_vsync == any && lcd_de == any && rst_n == any
+			</condition>
+			<log>
+			</log>
+		</trigger>
+	</instance>
+</chipwatcher>
