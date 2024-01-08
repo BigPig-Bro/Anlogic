@@ -1,0 +1,18 @@
+set_pin_assignment	{ clk }	{ LOCATION = P57; }
+set_pin_assignment	{ dac904e_db[0] }	{ LOCATION = P104; }
+set_pin_assignment	{ dac904e_db[1] }	{ LOCATION = P105; }
+set_pin_assignment	{ dac904e_db[2] }	{ LOCATION = P106; }
+set_pin_assignment	{ dac904e_db[3] }	{ LOCATION = P107; }
+set_pin_assignment	{ dac904e_db[4] }	{ LOCATION = P111; }
+set_pin_assignment	{ dac904e_db[5] }	{ LOCATION = P112; }
+set_pin_assignment	{ dac904e_db[6] }	{ LOCATION = P113; }
+set_pin_assignment	{ dac904e_db[7] }	{ LOCATION = P114; }
+set_pin_assignment	{ dac904e_db[8] }	{ LOCATION = P115; }
+set_pin_assignment	{ dac904e_db[9] }	{ LOCATION = P117; }
+set_pin_assignment	{ dac904e_db[10] }	{ LOCATION = P121; }
+set_pin_assignment	{ dac904e_db[11] }	{ LOCATION = P122; }
+set_pin_assignment	{ dac904e_db[12] }	{ LOCATION = P125; }
+set_pin_assignment	{ dac904e_db[13] }	{ LOCATION = P126; }
+set_pin_assignment	{ dac904e_clk  	 }	{ LOCATION = P128; }
+
+

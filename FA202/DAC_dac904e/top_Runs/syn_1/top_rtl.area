@@ -1,0 +1,33 @@
+standard
+***Report Model: top Device: EF2L45LG144B***
+
+IO Statistics
+#IO                        16
+  #input                    1
+  #output                  15
+  #inout                    0
+
+Gate Statistics
+#Basic gates               14
+  #and                      0
+  #nand                     0
+  #or                       0
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                      0
+  #bufif1                   0
+  #MX21                     0
+  #FADD                     0
+  #DFF                     14
+  #LATCH                    0
+#MACRO_ADD                  1
+
+Report Hierarchy Area:
++------------------------------------------------------+
+|Instance         |Module      |gates  |seq    |macros |
++------------------------------------------------------+
+|top              |top         |0      |14     |1      |
+|  dac904e_ctl_m0 |dac904e_ctl |0      |14     |1      |
++------------------------------------------------------+
